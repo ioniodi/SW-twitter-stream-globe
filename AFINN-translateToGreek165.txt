@@ -70,6 +70,9 @@ admitted	-1
 admonish	-2
 admonished	-2
 adopt	1
+υιοθετώ 1
+ενστερίζομαι 1
+// 2015105 Daniel Yordanov CSCW
 adopts	1
 adorable	3
 adoration	3
@@ -788,6 +791,10 @@ delights	3
 demand	-1
 demanded	-1
 demanding	-1
+απαιτητικός -1
+απαιτητική -1
+απαιτητικό -1
+// 2015105 Daniel Yordanov CSCW
 demands	-1
 demonstration	-1
 demoralize	-2
@@ -1931,6 +1938,9 @@ lethality	-2
 lethargic	-2
 lethargy	-2
 liar	-3
+ψεύτης -3
+ψεύτρα -3
+// 2015105 Daniel Yordanov CSCW
 liars	-3
 libelous	-2
 lied	-2
@@ -1996,7 +2006,9 @@ loving-kindness	3
 lowest	-1
 loyal	3
 loyalty	3
-luck	3
+luck 3
+τύχη 3
+// 2015105 Daniel Yordanov CSCW
 luckily	3
 lucky	3
 lucrative	3
@@ -2010,6 +2022,11 @@ lurks	-1
 luxury	2
 macabre	-2
 mad	-3
+τρελός -3
+τρελή -3
+παλαβός -3
+παλαβή -3
+// 2015105 Daniel Yordanov CSCW
 maddening	-3
 made-up	-1
 madly	-3
@@ -2051,7 +2068,12 @@ messing up	-2
 methodical	2
 methodically	2
 mindless	-2
+αδιάφορος -2
+αδιάφορη -2
+// 2015105 Daniel Yordanov CSCW
 miracle	4
+θαύμα 4
+// 2015105 Daniel Yordanov CSCW
 mirth	3
 mirthful	3
 mirthfully	3
@@ -2103,6 +2125,9 @@ miss	-2
 missed	-2
 missing	-2
 mistake	-2
+λάθος -2
+σφάλμα -2
+// 2015105 Daniel Yordanov CSCW
 mistaken	-2
 mistakes	-2
 mistaking	-2
@@ -2117,6 +2142,8 @@ misusing	-2
 moan	-2
 moaned	-2
 moaning	-2
+βογγώ -2
+// 2015105 Daniel Yordanov CSCW
 moans	-2
 mock	-2
 mocked	-2
@@ -2151,11 +2178,15 @@ muddy	-2
 mumpish	-2
 murder	-2
 murderer	-2
+δολοφόνος -2
+// 2015105 Daniel Yordanov CSCW
 murdering	-3
 murderous	-3
 murders	-2
 murky	-2
 myth	-1
+μύθος -1
+// 2015105 Daniel Yordanov CSCW
 n00b	-2
 naive	-2
 narcissism	-2
@@ -2165,6 +2196,8 @@ naïve	-2
 needy	-2
 negative	-2
 negativity	-2
+αρνητικότητα -2
+// 2015105 Daniel Yordanov CSCW
 neglect	-2
 neglected	-2
 neglecting	-2
@@ -2189,6 +2222,13 @@ not good	-2
 not working	-3
 notable	2
 noticeable	2
+αξιοσημείωτος 2
+αξιοσημείωτη 2
+αξιοσημείωτο 2
+αισθητός 2
+αισθητή 2
+αισθητό 2
+// 2015105 Daniel Yordanov CSCW
 notorious	-2
 novel	2
 numb	-1
@@ -2210,6 +2250,13 @@ obstructing	-2
 obstruction	-2
 obstructs	-2
 odd	-2
+περίεργος -2
+περίεργη -2
+περίεργο -2
+αλλόκοτος -2
+αλλόκοτη -2
+αλλόκοτο -2
+// 2015105 Daniel Yordanov CSCW
 offence	-2
 offences	-2
 offend	-2
@@ -2228,6 +2275,8 @@ once-in-a-lifetime	3
 oops	-2
 opportunities	2
 opportunity	2
+ευκαιρία 2
+// 2015105 Daniel Yordanov CSCW
 oppressed	-2
 oppression	-2
 oppressions	-2
@@ -2251,7 +2300,16 @@ outraged	-3
 outrageous	-3
 outreach	2
 outstanding	5
+εξαιρετικός 5
+εξαιρετική 5
+εξαιρετικό 5
+// 2015105 Daniel Yordanov CSCW
 overjoyed	4
+περιχαρής 4
+καταχαρούμενος 4
+καταχαρούμεη 4
+καταχαρούμενο 4
+// 2015105 Daniel Yordanov CSCW
 overload	-1
 overlooked	-1
 overprotective	-2
@@ -2364,6 +2422,9 @@ polluter	-2
 polluters	-2
 pollutes	-2
 pollution	-2
+ρύπανση -2
+μόλυνση -2
+// 2015105 Daniel Yordanov CSCW
 poor	-2
 poorer	-2
 poorest	-2
@@ -2386,6 +2447,8 @@ praised	3
 praises	3
 praising	3
 pray	1
+προσεύχομαι 1
+// 2015105 Daniel Yordanov CSCW
 praying	1
 prays	1
 prblm	-2
@@ -2393,6 +2456,8 @@ prblms	-2
 predatory	-2
 prepared	1
 pressure	-1
+πίεση -1
+// 2015105 Daniel Yordanov CSCW
 pressured	-2
 pretend	-1
 pretending	-1
@@ -2443,6 +2508,10 @@ protesters	-2
 protesting	-2
 protests	-2
 proud	2
+περήφανος 2
+περήφανη 2
+περήφανο 2
+// 2015105 Daniel Yordanov CSCW
 proudly	2
 provoke	-1
 provoked	-1
@@ -2469,6 +2538,9 @@ questioned	-1
 questioning	-1
 racism	-3
 racist	-3
+ρατσιστής -3
+ρατσίστρια -3
+// 2015105 Daniel Yordanov CSCW
 racists	-3
 rage	-2
 rageful	-2
@@ -2670,6 +2742,8 @@ scapegoats	-2
 scare	-2
 scared	-2
 scar	-2
+ουλή -2
+// 2015105 Daniel Yordanov CSCW
 scars	-2
 scary	-2
 sceptical	-2
@@ -2699,6 +2773,8 @@ self-contradictory	-2
 self-deluded	-2
 selfish	-3
 selfishness	-3
+εγωιστικότητα -3
+// 2015105 Daniel Yordanov CSCW
 sentence	-2
 sentenced	-2
 sentences	-2
@@ -2729,6 +2805,8 @@ shocks	-2
 shoody	-2
 shoot	-1
 short-sighted	-2
+κοντόφθαλμος -2
+// 2015105 Daniel Yordanov CSCW
 short-sightedness	-2
 shortage	-2
 shortages	-2
@@ -2754,6 +2832,10 @@ singleminded	-2
 sinister	-2
 sins	-2
 skeptic	-2
+σκεπτικός -2
+σκεπτική -2
+σκεπτικιστής -2
+// 2015105 Daniel Yordanov CSCW
 skeptical	-2
 skepticism	-2
 skeptics	-2
@@ -2776,6 +2858,11 @@ slumping	-1
 slut	-5
 smart	1
 smarter	2
+εξυπνότερος 2
+εξυπνότερη 2
+εξυπνότερο 2
+εξυπνότερα 2
+// 2015105 Daniel Yordanov CSCW
 smartest	2
 smear	-2
 smile	2
@@ -2892,6 +2979,9 @@ strange	-1
 strangely	-1
 strangled	-2
 strength	2
+δύναμη 2
+ισχύς 2
+// 2015105 Daniel Yordanov CSCW
 strengthen	2
 strengthened	2
 strengthening	2
@@ -2999,6 +3089,9 @@ tarnish	-2
 tarnished	-2
 tarnishes	-2
 tears	-2
+δάκρυα -2
+κλάματα -2
+// 2015105 Daniel Yordanov CSCW
 tender	2
 tenderness	2
 tense	-2
@@ -3061,6 +3154,8 @@ transgressed	-2
 transgresses	-2
 transgressing	-2
 trap	-1
+παγίδα -1
+// 2015105 Daniel Yordanov CSCW
 trapped	-2
 traps	-1
 trauma	-3

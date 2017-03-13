@@ -84,10 +84,6 @@ a{
     height:25px;width:25px;margin:0 5px 0 1px;opacity:0.75}
 .tweet-item .text{
     position:relative;top:-8px;font-size:12px}
-.tweet-item.negative{
-    border-color:#FF0000}
-.tweet-item.positive{
-    border-color:#FF0000}
 #github{
     font-size:12px;color:#666}
 #github a{

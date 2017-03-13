@@ -117,11 +117,10 @@ a{
 .tweet-item.color-positive-5{
      border-color: #00FF00;
  }
-
-/*.tweet-item.negative{*/
-    /*border-color:red}*/
-/*.tweet-item.positive{*/
-    /*border-color:#dd0}*/
+.tweet-item.negative{
+    border-color:red}
+.tweet-item.positive{
+    border-color:#dd0}
 #github{
     font-size:12px;color:#666}
 #github a{

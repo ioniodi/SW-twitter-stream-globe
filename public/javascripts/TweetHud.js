@@ -92,7 +92,7 @@ app.controller('TweetHud', function($scope, $resource, $timeout, $rootScope, $ti
 		
 		var state = 'neutral';
 
-        if (tweet.sentiment.score <= -5) {
+        if (score <= -5) {
             state = 'negative-5';
         }else if (score <= -4) {
             state = 'negative-4';

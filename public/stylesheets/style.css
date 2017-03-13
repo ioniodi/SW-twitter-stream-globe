@@ -68,10 +68,39 @@ a{
     font-size:12px;height:18px;line-height:18px;list-style-type:none}
 #sentiment-value{
     font-family:'Share Tech Mono';font-size:64px;line-height:64px;font-weight:300}
-#sentiment-value.negative{
-    color: #FF0000}
-#sentiment-value.positive{
-    color: #DDDD00}
+#sentiment-value.negative-5{
+    color: #FF0000;
+}
+#sentiment-value.negative-4{
+    color: #FF5A00;
+}
+#sentiment-value.negative-3{
+    color: #FF9000;
+}
+#sentiment-value.negative-2{
+    color: #FFCD00;
+}
+#sentiment-value.negative-1{
+    color: #FFFF00;
+}
+#sentiment-value.neutral-0{
+    color: #CDFFFF;
+}
+#sentiment-value.positive-1{
+    color: #CEFF00;
+}
+#sentiment-value.positive-2{
+    color: #ABFF00;
+}
+#sentiment-value.positive-3{
+    color: #8BFF00;
+}
+#sentiment-value.positive-4{
+    color: #51FF00;
+}
+#sentiment-value.positive-5{
+    color: #00FF00;
+}
 #line-chart-panel{
     width:220px;height:120px;overflow:hidden}
 #line-chart-panel .content{
@@ -117,10 +146,6 @@ a{
 .tweet-item.positive-5{
      border-color: #00FF00;
  }
-.tweet-item.negative{
-    border-color:red}
-.tweet-item.positive{
-    border-color:#dd0}
 #github{
     font-size:12px;color:#666}
 #github a{

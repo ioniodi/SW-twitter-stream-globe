@@ -15,24 +15,24 @@ TweetBeacon = function(tweet) {
   this.add(this.container);
 
   // Set base color depending on sentiment score
-  this.color = 0xFFFFFF;
+  this.color = 0x42f477;
 
   if (tweet.sentiment.score < 0) {
-    this.color = 0xFFFFFF;
+    this.color = 0x42f477;
   }else if (tweet.sentiment.score > 0) {
-    this.color = 0xFFFFFF;
+    this.color = 0x42f477;
   }else if (tweet.sentiment.score > 0) {
-    this.color = 0xFFFFFF;
+    this.color = 0x42f477;
   }else if (tweet.sentiment.score > 0) {
-    this.color = 0xFFFFFF;
+    this.color = 0x42f477;
   }else if (tweet.sentiment.score > 0) {
-    this.color = 0xFFFFFF;
+    this.color = 0x42f477;
   }else if (tweet.sentiment.score > 0) {
-    this.color = 0xFFFFFF;
+    this.color = 0x42f477;
   }else if (tweet.sentiment.score > 0) {
-    this.color = 0xFFFFFF;
+    this.color = 0x42f477;
   }else if (tweet.sentiment.score > 0) {
-    this.color = 0xFFFFFF;
+    this.color = 0x42f477;
   }
 
   this.addBeam();

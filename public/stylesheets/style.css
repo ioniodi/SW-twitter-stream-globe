@@ -69,9 +69,9 @@ a{
 #sentiment-value{
     font-family:'Share Tech Mono';font-size:64px;line-height:64px;font-weight:300}
 #sentiment-value.negative{
-    color:red}
+    color: #FF0000}
 #sentiment-value.positive{
-    color:#dd0}
+    color: #DDDD00}
 #line-chart-panel{
     width:220px;height:120px;overflow:hidden}
 #line-chart-panel .content{

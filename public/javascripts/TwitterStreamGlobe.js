@@ -117,7 +117,7 @@
 	 *	Adds a Tweet to the Earth, called from TweetHud.js
 	 */
 	TwtrGlobe.onTweet = function (tweet) {
-		if (latlong != null){
+		if (tweet.coordinates.coordinates[1] != null && tweet.coordinates.coordinates[0]){
             // extract a latlong from the Tweet object
             var latlong = {
                 lat: tweet.coordinates.coordinates[1],

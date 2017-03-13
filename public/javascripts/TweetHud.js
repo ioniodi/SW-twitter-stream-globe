@@ -117,6 +117,7 @@ app.controller('TweetHud', function($scope, $resource, $timeout, $rootScope, $ti
         }
 		return state;
 	}
+	// Returns average sentiment description for use as a CSS class
 	function getAvgSentimentState (score){
         var state = 'neutral';
 

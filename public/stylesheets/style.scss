@@ -226,8 +226,6 @@ a {
 		font-size: 12px;
 	}
 
-
-
 	&.negative-5{
 		border-color: $color-negative-5;
 	}
@@ -261,13 +259,12 @@ a {
 	&.positive-5{
 		border-color: $color-positive-5;
 	}
-	//&.negative {
-	//	border-color: $color-negative;
-	//}
-    //
-	//&.positive {
-	//	border-color: $color-positive;
-	//}
+	&.negative {
+		border-color: $color-negative;
+	}
+	&.positive {
+		border-color: $color-positive;
+	}
 }
 
 #github {

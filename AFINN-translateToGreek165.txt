@@ -1882,35 +1882,151 @@ justifiably	2
 justified	2
 keen	1
 kickback	-3
+ανάκρουση   -3
+αμοιβή για κάποια υπηρεσία  -3
+αμοιβή για υπηρεσία -3
+δωροδοκία   -3
+δωροδοκία για υπηρεσία  -3
+δωροδοκία για υπηρεσία  -3
+προμήθεια   -3
+// 2014170 Alexandros Kalavitis
 kickbacks	-3
+μίζες   -3
+// 2014170 Alexandros Kalavitis
 kidnap	-2
+απαγωγή -2
+// 2014170 Alexandros Kalavitis
 kidnapped	-2
+απαχθείς    -2
+// 2014170 Alexandros Kalavitis
 kidnapping	-2
+απαγωγή -2
+// 2014170 Alexandros Kalavitis
 kidnappings	-2
+απαγωγές    -2
+// 2014170 Alexandros Kalavitis
 kidnaps	-2
+απαγάγει    -2
+// 2014170 Alexandros Kalavitis
 kill	-3
+σκοτώνω -3
+θανατώνω    -3
+φονεύω  -3
+εξουδετερώνω    -3
+φόνος   -3
+// 2014170 Alexandros Kalavitis
 killed	-3
+σκότωσε -3
+// 2014170 Alexandros Kalavitis
 killing	-3
+φόνος   -3
+// 2014170 Alexandros Kalavitis
 kills	-3
+σκοτώνει    -3
+// 2014170 Alexandros Kalavitis
 kind	2
+είδος   2
+κατηγορία   2
+γένος   2
+ποικιλία    2
+φιλόφρων    2
+καλός   2
+ευγενικός   2
+αγαθός  2
+ευνοϊκός    2
+περιποιητικός   2
+// 2014170 Alexandros Kalavitis
 kind of	0
+περίπου 0
+// 2014170 Alexandros Kalavitis
 kinder	2
+ευγενικότερος   2
+ποιό ευγενικός  2
+// 2014170 Alexandros Kalavitis
 kindness	2
+καλοσύνη    2
+καλωσύνη    2
+αγαθότητα   2
+αγαθότης    2
+// 2014170 Alexandros Kalavitis
 kiss	2
+φιλί    2
+φίλημα  2
+// 2014170 Alexandros Kalavitis
 kudos	3
+δόξα    3
+φήμη    3
+// 2014170 Alexandros Kalavitis
 lack	-2
+έλλειψη -2
+στέρηση -2
+στερούμαι   -2
+έχω έλειψη  -2
+έχω έλειψη από  -2
+// 2014170 Alexandros Kalavitis
 lackadaisical	-2
+αδιάφορος   -2
+άτονος  -2
+βαρυεστημένος   -2
+ψευδοαισθηματικός   -2
+// 2014170 Alexandros Kalavitis
 lag	-1
+καθυστέρηση -1
+επιπορεία   -1
+κατάδικος   -1
+χασομερώ    -1
+βραδύνω -1
+χρονοτριβώ  -1
+καθυστερώ   -1
+// 2014170 Alexandros Kalavitis
 lagged	-2
+με χρονική υστέρηση -2
+// 2014170 Alexandros Kalavitis
 lagging	-2
+μόνωση  -2
+βραδύτης    -2
+βραδύνων    -2
+// 2014170 Alexandros Kalavitis
 lags	-2
+υστερήσεων  -2
+// 2014170 Alexandros Kalavitis
 lame	-2
+κουτσός -2
+χωλός   -2
+καθιστώ χωλόν   -2
+απαράδεκτος -2
+// 2014170 Alexandros Kalavitis
 landmark	2
+ορόσημο 2
+διακριτικό σημείο   2
+αξιοθέατο   2
+// 2014170 Alexandros Kalavitis
 lapse	-1
+μεσολάβηση  -1
+παραγραφή   -1
+ολίσθημα    -1
+πταίσμα -1
+πάροδος χρόνου  -1
+παραγράφω   -1
+ολισθαίνω   -1
+σφάλλω  -1
+υποπίπτω    -1
+// 2014170 Alexandros Kalavitis
 lapsed	-1
+ληξιπρόθεσμος   -1
+// 2014170 Alexandros Kalavitis
 laugh	1
+γέλιο   1
+// 2014170 Alexandros Kalavitis
 laughed	1
+γελασα  1
+// 2014170 Alexandros Kalavitis
 laughing	1
+γελώ    1
+γελώς   1
+γελών   1
+γελάω   1
+// 2014170 Alexandros Kalavitis
 laughs	1
 laughting	1
 launched	1

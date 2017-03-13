@@ -117,16 +117,18 @@
 	 *	Adds a Tweet to the Earth, called from TweetHud.js
 	 */
 	TwtrGlobe.onTweet = function (tweet) {
+		if (latlong != null){
+            // extract a latlong from the Tweet object
+            var latlong = {
+                lat: tweet.coordinates.coordinates[1],
+                lon: tweet.coordinates.coordinates[0]
+            };
 
-		// extract a latlong from the Tweet object
-		var latlong = {
-			lat: tweet.coordinates.coordinates[1],
-			lon: tweet.coordinates.coordinates[0]
-		};
-		
-		var position = latLonToVector3(latlong.lat, latlong.lon);
+            var position = latLonToVector3(latlong.lat, latlong.lon);
 
-		addBeacon(position, tweet);
+            addBeacon(position, tweet);
+		}
+
 	}
 
 	/**

@@ -84,37 +84,37 @@ a{
     height:25px;width:25px;margin:0 5px 0 1px;opacity:0.75}
 .tweet-item .text{
     position:relative;top:-8px;font-size:12px}
-.tweet-item.color-negative-5{
+.tweet-item.negative-5{
      border-color: #FF0000;
  }
-.tweet-item.color-negative-4{
+.tweet-item.negative-4{
      border-color: #FF5A00;
  }
-.tweet-item.color-negative-3{
+.tweet-item.negative-3{
      border-color: #FF9000;
  }
-.tweet-item.color-negative-2{
+.tweet-item.negative-2{
      border-color: #FFCD00;
  }
-.tweet-item.color-negative-1{
+.tweet-item.negative-1{
      border-color: #FFFF00;
  }
-.tweet-item.color-neutral-0{
+.tweet-item.neutral-0{
      border-color: #CDFFFF;
  }
-.tweet-item.color-positive-1{
+.tweet-item.positive-1{
      border-color: #CEFF00;
  }
-.tweet-item.color-positive-2{
+.tweet-item.positive-2{
      border-color: #ABFF00;
  }
-.tweet-item.color-positive-3{
+.tweet-item.positive-3{
      border-color: #8BFF00;
  }
-.tweet-item.color-positive-4{
+.tweet-item.positive-4{
      border-color: #51FF00;
  }
-.tweet-item.color-positive-5{
+.tweet-item.positive-5{
      border-color: #00FF00;
  }
 .tweet-item.negative{

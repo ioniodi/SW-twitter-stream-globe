@@ -3465,33 +3465,82 @@ woohoo	3
 wooo	4
 woow	4
 worn	-1
+φθαρμένο -1
+//Timotheos Avgerinos 2015009
 worried	-3
+ανήσυχος -3
+//Timotheos Avgerinos 2015009
 worries	-3
+ανησυχίες -3
+//Timotheos Avgerinos 2015009
 worry	-3
+ανησυχία -3
+//Timotheos Avgerinos 2015009
 worrying	-3
+ανησυχητική -3
+//Timotheos Avgerinos 2015009
 worse	-3
+χειρότερος -3
+//Timotheos Avgerinos 2015009
 worsen	-3
+χειροτερεύω -3
+//Timotheos Avgerinos 2015009
 worsened	-3
+επιδεινώθηκε -3
+//Timotheos Avgerinos 2015009
 worsening	-3
+επιδείνωση -3
+//Timotheos Avgerinos 2015009
 worsens	-3
+χειροτερεύει -3
+//Timotheos Avgerinos 2015009
 worshiped	3
+λάτρευαν 3
+//Timotheos Avgerinos 2015009
 worst	-3
+χειριστός -3
+//Timotheos Avgerinos 2015009
 worth	2
+αξία  2
+//Timotheos Avgerinos 2015009
 worthless	-2
+άνευ αξίας -2
 worthy	2
+άξιος 2
+//Timotheos Avgerinos 2015009
 wow	4
 wowow	4
 wowww	4
 wrathful	-3
+οργισμένος -3
+//Timotheos Avgerinos 2015009
 wreck	-2
+ναυάγιο -2
+//Timotheos Avgerinos 2015009
 wrenching	-2
+στρέψει  -2
+//Timotheos Avgerinos 2015009
 wrong	-2
+λανθασμένος -2
+//Timotheos Avgerinos 2015009
 wrongdoing	-2
+αδικοπραγία -2
+//Timotheos Avgerinos 2015009
 wrongdoings	-2
+παραπτώματα -2
+//Timotheos Avgerinos 2015009
 wronged	-2
+αδικημένος -2
+//Timotheos Avgerinos 2015009
 wrongful	-2
+άδικος    -2
+//Timotheos Avgerinos 2015009
 wrongfully	-2
+λανθασμένα  -2
+//Timotheos Avgerinos 2015009
 wrongly	-2
+λανθασμένα -2
+//Timotheos Avgerinos 2015009
 wtf	-4
 wtff	-4
 wtfff	-4
@@ -3501,11 +3550,23 @@ xoxoxo	4
 xoxoxoxo	4
 yeah	1
 yearning	1
+λαχτάρα 1
+//Timotheos Avgerinos 2015009
 yeees	2
 yes	1
+Ναί 1
+//Timotheos Avgerinos 2015009
 youthful	2
+νεανικός 2
+//Timotheos Avgerinos 2015009
 yucky	-2
 yummy	3
+νόστιμος 3
+//Timotheos Avgerinos 2015009
 zealot	-2
+ζηλωτής 2
+//Timotheos Avgerinos 2015009
 zealots	-2
 zealous	2
+
+

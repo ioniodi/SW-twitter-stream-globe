@@ -82,7 +82,7 @@ app.controller('TweetHud', function($scope, $resource, $timeout, $rootScope, $ti
     });
 
     $scope.avgSentiment = (Math.round((sentimentScoreTotal / TWEET_SAMPLE_SIZE) * 100) / 100).toFixed(2);
-    $scope.sentimentState = getSentimentState($scope.avgSentiment);
+    $scope.sentimentState = getAvgSentimentState($scope.avgSentiment);
   }
 
   /**
@@ -92,15 +92,60 @@ app.controller('TweetHud', function($scope, $resource, $timeout, $rootScope, $ti
 		
 		var state = 'neutral';
 
-  	if (score < 0) {
-  		state = 'negative';
-  	}
-  	else if (score > 0) {
-  		state = 'positive';
-  	}
-
+        if (score <= -5) {
+            state = 'negative-5';
+        }else if (score <= -4) {
+            state = 'negative-4';
+        }else if (score <= -3) {
+            state = 'negative-3';
+        }else if (score <= -2) {
+            state = 'negative-2';
+        }else if (score < 0) {
+            state = 'negative-1';
+        }else if (score == 0) {
+            state = 'neutral-0';
+        }else if (score <= 1) {
+            state = 'positive-1';
+        }else if (score <= 2) {
+            state = 'positive-2';
+        }else if (score <= 3) {
+            state = 'positive-3';
+        }else if (score <= 4) {
+            state = 'positive-4';
+        }else{
+            state = 'positive-5';
+        }
 		return state;
 	}
+	// Returns average sentiment description for use as a CSS class
+	function getAvgSentimentState (score){
+        var state = 'neutral';
+
+        if (score <= -1) {
+            state = 'negative-5';
+        }else if (score <= -0.8) {
+            state = 'negative-4';
+        }else if (score <= -0.6) {
+            state = 'negative-3';
+        }else if (score <= -0.4) {
+            state = 'negative-2';
+        }else if (score < -0.2) {
+            state = 'negative-1';
+        }else if (score == 0) {
+            state = 'neutral-0';
+        }else if (score <= 0.1) {
+            state = 'positive-1';
+        }else if (score <= 0.2) {
+            state = 'positive-2';
+        }else if (score <= 0.3) {
+            state = 'positive-3';
+        }else if (score <= 0.4) {
+            state = 'positive-4';
+        }else{
+            state = 'positive-5';
+        }
+        return state;
+    }
 
   /**
    * GET request to stop stream on the server

@@ -3,9 +3,17 @@
 
 $twitter-color: #55ACEE;
 $panel-color: #222;
-$color-negative: #FF0000;
-$color-positive: #DDDD00;
-$color-neutral: #444;
+$color-negative-5: #FF0000;
+$color-negative-4: #FF5A00;
+$color-negative-3: #FF9000;
+$color-negative-2: #FFCD00;
+$color-negative-1: #FFFF00;
+$color-neutral-0: #CDFFFF;
+$color-positive-1: #CEFF00;
+$color-positive-2: #ABFF00;
+$color-positive-3: #8BFF00;
+$color-positive-4: #51FF00;
+$color-positive-5: #00FF00;
 $color-text: #CCC;
 $panel-border: 5px solid #333;
 
@@ -168,12 +176,38 @@ a {
 	font-weight: 300;
 }
 
-#sentiment-value.negative {
-	color: $color-negative;
+#sentiment-value.negative-5{
+  color: $color-negative-5;
 }
-
-#sentiment-value.positive {
-	color: $color-positive;
+#sentiment-value.negative-4{
+  color: $color-negative-4;
+}
+#sentiment-value.negative-3{
+  color: $color-negative-3;
+}
+#sentiment-value.negative-2{
+  color: $color-negative-2;
+}
+#sentiment-value.negative-1{
+  color: $color-negative-1;
+}
+#sentiment-value.neutral-0{
+  color: $color-neutral-0;
+}
+#sentiment-value.positive-1{
+  color: $color-positive-1;
+}
+#sentiment-value.positive-2{
+  color: $color-positive-2;
+}
+#sentiment-value.positive-3{
+  color: $color-positive-3;
+}
+#sentiment-value.positive-4{
+  color: $color-positive-4;
+}
+#sentiment-value.positive-5{
+  color: $color-positive-5;
 }
 
 #line-chart-panel {
@@ -216,12 +250,38 @@ a {
 		font-size: 12px;
 	}
 
-	&.negative {
-		border-color: $color-negative;
+	&.negative-5{
+		border-color: $color-negative-5;
 	}
-
-	&.positive {
-		border-color: $color-positive;
+	&.negative-4{
+		border-color: $color-negative-4;
+	}
+	&.negative-3{
+		border-color: $color-negative-3;
+	}
+	&.negative-2{
+		border-color: $color-negative-2;
+	}
+	&.negative-1{
+		border-color: $color-negative-1;
+	}
+	&.neutral-0{
+		border-color: $color-neutral-0;
+	}
+	&.positive-1{
+		border-color: $color-positive-1;
+	}
+	&.positive-2{
+		border-color: $color-positive-2;
+	}
+	&.positive-3{
+		border-color: $color-positive-3;
+	}
+	&.positive-4{
+		border-color: $color-positive-4;
+	}
+	&.positive-5{
+		border-color: $color-positive-5;
 	}
 }
 

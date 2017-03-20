@@ -10,7 +10,11 @@ abhorrent	-3
 abhors	-3
 abilities	2
 ability	2
+ικανότητα -2
+//Giannis Kwvaios 2013098 cscw
 aboard	1
+εντός πλοίου 1
+//Giannis Kwvaios 2013098 cscw
 aborted	-1
 aborts	-1
 absentee	-1
@@ -25,15 +29,21 @@ abused	-3
 abuses	-3
 abusing	-3
 abusive	-3
+υβριστικός -3
+//Giannis Kwvaios 2013098 cscw
 accept	1
 acceptable	1
 acceptance	1
 accepted	1
+αποδεκτός 1
+//Giannis Kwvaios 2013098 cssw
 accepting	1
 accepts	1
 accessible	1
 accident	-2
 accidental	-2
+τυχαίος -2
+//Giannis Kwvaios 2013098 cssw
 accidentally	-2
 accidents	-2
 acclaim	2
@@ -59,6 +69,8 @@ acquitted	2
 acquitting	2
 acrimonious	-3
 active	1
+ενεργός 1
+//Giannis Kwvaios 2013098 cscw
 adequate	1
 admire	3
 admired	3
@@ -311,6 +323,8 @@ benefactor	2
 benefactors	2
 benefit	2
 benefits	2
+προνόμια 2
+//Giannis Kwvaios 2013098 cscw
 benefitted	2
 benefitting	2
 benevolent	3
@@ -335,7 +349,13 @@ bitter	-2
 bitterest	-2
 bitterly	-2
 bizarre	-2
+παράξενος -2
+//Giannis Kwvaios 2013098 cscw
 blackmail	-3
+εκβιασμός -3
+εκβιάζω -3
+//Giannis Kwvaios 2013098 cscw
+
 blackmailed	-3
 blackmailing	-3
 blackmails	-3
@@ -414,12 +434,18 @@ bullying	-2
 bummer	-2
 buoyant	2
 burden	-2
+βάρος -2
+//Giannis Kwvaios 2013098 cscw
 burdened	-2
 burdening	-2
 burdens	-2
 burglar	-2
+ληστής -2
+//Giannis Kwvaios 2013098 cscw
 burglary	-2
 calm	2
+ήρεμος  2
+//Giannis Kwvaios 2013098 cscw
 calmed	2
 calming	2
 calms	2
@@ -433,6 +459,8 @@ capabilities	1
 capability	1
 capable	1
 captivated	3
+σαγηνευμένος 3
+//Giannis Kwvaios 2013098 cscw
 care	2
 carefree	1
 careful	2
@@ -444,6 +472,9 @@ caring	2
 cashing in	-2
 casualty	-2
 catastrophe	-3
+καταστροφή -3
+//Giannis Kwvaios 2013098 cscw
+
 catastrophic	-4
 cautious	-1
 celebrate	3
@@ -454,6 +485,8 @@ celebration	3
 celebrations	3
 censor	-2
 censored	-2
+λογοκριμένος -2
+//Giannis Kwvaios 2013098 cscw
 censors	-2
 certain	1
 chagrin	-2
@@ -563,6 +596,9 @@ complain	-2
 complained	-2
 complaining	-2
 complains	-2
+complicated     -2
+περίπλοκο -2
+//Giannis Kwvaios 2013098 cscw
 complaint	-2
 complaints	-2
 complicating	-2
@@ -578,8 +614,12 @@ conciliating	2
 condemn	-2
 condemnation	-2
 condemned	-2
+καταδικασμένος -2
+//Giannis Kwvaios 2013098 cscw
 condemns	-2
 confidence	2
+αυτοπεποιήθηση 2
+//Giannis Kwvaios 2013098 cscw
 confident	2
 confidently	2
 conflict	-2
@@ -644,6 +684,8 @@ courageously	2
 courageousness	2
 courteous	2
 courtesy	2
+ευγένεια 	2
+//Giannis Kwvaios 2013098 cscw
 cover-up	-3
 coward	-2
 cowardly	-2
@@ -701,6 +743,8 @@ cuts	-1
 cutting	-1
 cynic	-2
 cynical	-2
+κυνικός	-2
+//Giannis Kwvaios 2013098 cscw
 cynicism	-2
 damage	-3
 damaged	-3
@@ -712,6 +756,8 @@ damn good	4
 damned	-4
 damnit	-4
 danger	-2
+κίνδυνος  -2
+//Giannis Kwvaios 2013098 cscw
 dangerous	-2
 dangerously	-2
 daredevil	2
@@ -723,6 +769,8 @@ dazzling	3
 dead	-3
 deadening	-2
 deadlock	-2
+αδιέξοδο	-2
+//Giannis Kwvaios 2013098 cscw
 deadly	-3
 deafening	-1
 dear	2
@@ -748,6 +796,8 @@ defect	-3
 defective	-3
 defects	-3
 defender	2
+αμυνόμενος 	2
+//Giannis Kwvaios 2013098 cscw
 defenders	2
 defenseless	-2
 defer	-1
@@ -791,6 +841,8 @@ demanding	-1
 demands	-1
 demonstration	-1
 demoralize	-2
+αποθαρρύνω	-2
+//Giannis Kwvaios 2013098 cscw
 demoralized	-2
 demoralizes	-2
 demoralizing	-2
@@ -818,7 +870,11 @@ deportations	-2
 depressed	-2
 depressing	-2
 deprivation	-3
+στέρηση	-3
+//Giannis Kwvaios 2013098 cscw
 derail	-2
+εκτροχιασμός -2
+//Giannis Kwvaios 2013098 cscw
 derailed	-2
 derails	-2
 derelict	-2
@@ -950,7 +1006,11 @@ dislikes	-2
 dismal	-2
 dismayed	-2
 dismissed	-2
+απολυμένος  -2
+//Giannis Kwvaios 2013098 cscw
 disorder	-2
+διαταραχή  -2
+//Giannis Kwvaios 2013098 cscw
 disorders	-2
 disorganized	-2
 disoriented	-2
@@ -1043,10 +1103,14 @@ droopy	-2
 drop	-1
 dropped	-1
 drown	-2
+πνιγμός -2
+//Giannis Kwvaios 2013098 cscw
 drowned	-2
 drowns	-2
 drudgery	-2
 drunk	-2
+μεθυσμένος -2
+//Giannis Kwvaios 2013098 cscw
 dubious	-2
 dud	-2
 dull	-2
@@ -1103,11 +1167,17 @@ endorses	2
 enemies	-2
 enemy	-2
 energetic	2
+ενεργητικός 2
+//Giannis Kwvaios 2013098 cscw
 engage	1
+εμπλέκω  1
+//Giannis Kwvaios 2013098 cscw
 engages	1
 engrossed	1
 engrossing	3
 enjoy	2
+απολαμβάνω 2
+//Giannis Kwvaios 2013098 cscw
 enjoyable	2
 enjoyed	2
 enjoying	2
@@ -1185,9 +1255,13 @@ excruciatingly	-1
 excuse	-1
 exempt	-1
 exhausted	-2
+εξαντλημένος -2
+//Giannis Kwvaios 2013098 cscw
 exhilarated	3
 exhilarates	3
 exhilarating	3
+συναρπαστικός 3
+//Giannis Kwvaios 2013098 cscw
 exonerate	2
 exonerated	2
 exonerates	2
@@ -1228,6 +1302,8 @@ failed	-2
 failing	-2
 fails	-2
 failure	-2
+αποτυχία   -2
+//Giannis Kwvaios 2013098 cscw
 failures	-2
 fainthearted	-2
 fair	2
@@ -1235,6 +1311,8 @@ fairness	2
 faith	1
 faithful	3
 fake	-3
+ψεύτικος  -3
+//Giannis Kwvaios 2013098 cscw
 faker	-3
 fakes	-3
 faking	-3
@@ -1656,6 +1734,8 @@ illnesses	-2
 illogical	-2
 imaginative	2
 imbecile	-3
+ηλίθιος 		-3
+//Giannis Kwvaios 2013098 cscw
 immobilized	-1
 immortal	2
 immune	1
@@ -1772,7 +1852,11 @@ infuriates	-2
 infuriating	-2
 inhibit	-1
 inhuman	-2
+απάνθρωπος  -2
+//Giannis Kwvaios 2013098 cscw
 injured	-2
+τραυματισμένος -2
+//Giannis Kwvaios 2013098 cscw
 injuries	-2
 injury	-2
 injustice	-2
@@ -1837,6 +1921,8 @@ invulnerable	2
 irate	-3
 ironic	-1
 irony	-1
+ειρωνία	-1
+//Giannis Kwvaios 2013098 cscw
 irrational	-1
 irreparable	-2
 irreproducible	-2
@@ -1849,6 +1935,8 @@ irreversible	-1
 irreversibly	-1
 irritate	-3
 irritated	-3
+ενοχλημένος 	-3
+//Giannis Kwvaios 2013098 cscw
 irritates	-3
 irritating	-3
 isolated	-1

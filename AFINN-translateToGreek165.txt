@@ -1,10 +1,12 @@
 abandon	-2
-abandoned	-2
+abandoned	-2 
 abandons	-2
 abducted	-2
 abduction	-2
 abductions	-2
 abhor	-3
+απεχθάνομαι -3
+//Afentoulis Kwnstantinos 2015021 cscw
 abhorred	-3
 abhorrent	-3
 abhors	-3
@@ -19,6 +21,8 @@ absolve	2
 absolved	2
 absolves	2
 absolving	2
+απαλλάσσοντας 2
+//Afentoulis Kwnstantinos 2015021 cscw
 absorbed	1
 abuse	-3
 abused	-3
@@ -47,6 +51,8 @@ accolade	2
 accomplish	2
 accomplished	2
 accomplishes	2
+επιτυγχάνει 2
+//Afentoulis Kwnstantinos 2015021 cscw
 accomplishment	2
 accomplishments	2
 accusation	-2
@@ -814,6 +820,8 @@ deny	-2
 denying	-2
 deplore	-3
 deplored	-3
+αποδοκίμασε
+//Afentoulis Kwnstantinos 2015021 cscw
 deplores	-3
 deploring	-3
 deport	-2
@@ -1223,6 +1231,8 @@ extend	1
 extends	1
 extremist	-2
 extremists	-2
+εξτρεμιστές
+//Afentoulis Kwnstantinos 2015021 cscw
 exuberant	4
 exultant	3
 exultantly	3
@@ -1259,6 +1269,8 @@ famous	2
 fan	3
 fantastic	4
 farce	-1
+φάρσα
+//Afentoulis Kwnstantinos 2015021 cscw
 fascinate	3
 fascinated	3
 fascinates	3
@@ -1302,11 +1314,21 @@ feeling	1
 felonies	-3
 felony	-3
 fertile	2
+εύφορος
+//Afentoulis Kwnstantinos 2015021 cscw
 fervent	2
+θερμός
+//Afentoulis Kwnstantinos 2015021 cscw
 fervid	2
+διάπυρος
+//Afentoulis Kwnstantinos 2015021 cscw
 festive	2
+εορταστικός
+//Afentoulis Kwnstantinos 2015021 cscw
 fever	-2
 fiasco	-3
+παταγώδης αποτυχία -3
+//Afentoulis Kwnstantinos 2015021 cscw
 fidgety	-2
 fight	-1
 fighting	-2
@@ -1602,6 +1624,8 @@ homeless	-2
 homesick	-2
 homicide	-2
 homicides	-2
+ανθρωποκτονίες
+//Afentoulis Kwnstantinos 2015021 cscw
 honest	2
 honor	2
 τιμή  2
@@ -1682,6 +1706,8 @@ impair	-2
 impaired	-2
 impairing	-2
 impairment	-2
+βλάβη
+//Afentoulis Kwnstantinos 2015021 cscw
 impairs	-2
 impatient	-2
 impeachment	-3
@@ -1881,6 +1907,8 @@ irreversibly	-1
 irritate	-3
 irritated	-3
 irritates	-3
+ερεθίζει
+//Afentoulis Kwnstantinos 2015021 cscw
 irritating	-3
 isolated	-1
 itchy	-2
@@ -2080,6 +2108,8 @@ lunatic	-3
 παράφρονας  -3
 //2015201 Achilleas Kapetanios CSCW
 lunatics	-3
+τρελούς
+//Afentoulis Kwnstantinos 2015021 cscw
 lurk	-1
 lurking	-1
 lurks	-1
@@ -2099,6 +2129,7 @@ maladaption	-2
 maldevelopment	-2
 maltreatment	-2
 mandatory	-1
+υποχρεωτικός
 manipulated	-1
 manipulating	-1
 manipulation	-1
@@ -2149,6 +2180,8 @@ misclassify	-2
 misconduct	-2
 misconducted	-2
 misconducting	-2
+κακή συμπεριφορά
+//Afentoulis Kwnstantinos 2015021 cscw
 misconducts	-2
 miserable	-3
 miserably	-3
@@ -2223,6 +2256,8 @@ motivated	2
 motivating	2
 motivation	1
 mourn	-2
+θρηνώ
+//Afentoulis Kwnstantinos 2015021 cscw
 mourned	-2
 mournful	-2
 mourning	-2
@@ -2284,6 +2319,7 @@ obsolete	-2
 obstacle	-2
 obstacles	-2
 obstinate	-2
+πεισματάρης
 obstruct	-2
 obstructed	-2
 obstructing	-2
@@ -2304,6 +2340,8 @@ offensively	-2
 offline	-1
 oks	2
 ominous	3
+δυσοίωνος
+//Afentoulis Kwnstantinos 2015021 cscw
 once-in-a-lifetime	3
 oops	-2
 opportunities	2
@@ -2466,6 +2504,8 @@ perturbed	-2
 pervert	-3
 pesky	-2
 pessimism	-2
+απαισιοδοξία -2
+//Afentoulis Kwnstantinos 2015021 cscw
 pessimistic	-2
 petrified	-2
 philanthropy	2
@@ -2703,6 +2743,8 @@ reprimand	-2
 reprimanded	-2
 reprimanding	-2
 reprimands	-2
+επιπλήξεις
+//Afentoulis Kwnstantinos 2015021 cscw
 repulse	-1
 repulsed	-2
 repulsive	-2
@@ -2744,6 +2786,8 @@ retarded	-2
 retreat	-1
 revenge	-2
 revengeful	-2
+εκδικιτικος
+//Afentoulis Kwnstantinos 2015021 cscw
 revered	2
 revive	2
 revives	2
@@ -2762,6 +2806,8 @@ righteousness	2
 rightful	2
 rightfully	2
 rigorous	3
+αυστηρός
+//Afentoulis Kwnstantinos 2015021 cscw
 rigorously	3
 riot	-2
 riots	-2
@@ -2811,6 +2857,8 @@ salvation	2
 sappy	-1
 sarcastic	-2
 satisfied	2
+ικανοποιημενος 2
+//Afentoulis Kwnstantinos 2015021 cscw
 savange	-2
 savanges	-2
 save	2
@@ -2854,6 +2902,8 @@ seduced	-1
 self-abuse	-2
 self-confident	2
 self-contradictory	-2
+αυτο-αντικρουόμενος -2
+//Afentoulis Kwnstantinos 2015021 cscw
 self-deluded	-2
 selfish	-3
 εγωιστής -3
@@ -2935,6 +2985,8 @@ sloppy	-2
 sluggish	-2
 slumping	-1
 slut	-5
+τσούλα -5
+//Afentoulis Kwnstantinos 2015021 cscw
 smart	1
 έξυπνος 1
 έξυπνη 1
@@ -2984,6 +3036,8 @@ solving	1
 somber	-2
 some kind	0
 son-of-a-bitch	-5
+καθίκι -5
+//Afentoulis Kwnstantinos 2015021 cscw
 soothe	3
 soothed	3
 soothing	3
@@ -3084,6 +3138,8 @@ struggle	-2
 struggled	-2
 struggles	-2
 struggling	-2
+επίδοξος -2
+//Afentoulis Kwnstantinos 2015021 cscw
 stubborn	-2
 stuck	-2
 stunned	-2

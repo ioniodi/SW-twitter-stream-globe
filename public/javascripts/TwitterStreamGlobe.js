@@ -126,8 +126,9 @@
             };
 
             var position = latLonToVector3(latlong.lat, latlong.lon);
-
-            addBeacon(position, tweet);
+	    if((latlong.lat >= -11.178402 && latlong.lat <= -6.489983) && (latlong.lon <= 113.115234 && latlong.lon <= 108.720703)){
+	        addBeacon(position, tweet);
+	    }
 		}else{
             var latlong = {
                 lat: null,

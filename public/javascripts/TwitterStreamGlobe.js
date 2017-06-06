@@ -52,7 +52,7 @@
      *	Creates the Earth sphere
      */
     function addEarth () {
-        var sphereGeometry = new THREE.PlaneBufferGeometry(1500, 1500);
+        var sphereGeometry = new THREE.PlaneGeometry(1500, 1500);
 
         var shader = Shaders.earth;
         var uniforms = THREE.UniformsUtils.clone(shader.uniforms);

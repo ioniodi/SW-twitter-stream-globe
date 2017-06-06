@@ -144,8 +144,8 @@
 
         var beacon = new TweetBeacon(tweet);
 
-        beacon.position.x = position.x/1500;
-        beacon.position.y = position.y/1500;
+        beacon.position.x = ((1500/360.0) * (180 + position.x));
+        beacon.position.y = ((1500/180.0) * (90 + position.x));
         //beacon.position.z = position.z;
         beacon.lookAt(earthMesh.position);
         beaconHolder.add(beacon);

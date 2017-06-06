@@ -58,7 +58,7 @@
 	  var shader = Shaders.earth;
 	  var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
 
-	  uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/world-dark.jpg');
+	  uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/world.jpg');
 
 	  var material = new THREE.ShaderMaterial({
 	    uniforms: uniforms,
@@ -126,8 +126,9 @@
             };
 
             var position = latLonToVector3(latlong.lat, latlong.lon);
-
-            addBeacon(position, tweet);
+	    if((latlong.lat <= -11.178402 && latlong.lat >= -41) && (latlong.lon <= 113.115234 && latlong.lon <= 108.720703)){
+	        addBeacon(position, tweet);
+	    }
 		}else{
             var latlong = {
                 lat: null,
@@ -172,7 +173,7 @@
 	 */ 
 	function render () {
 
-		earthMesh.rotation.y = earthMesh.rotation.y + 0.005;
+		earthMesh.rotation.y = earthMesh.rotation.y + 0.314;
 		
 	  renderer.autoClear = false;
 	  renderer.clear();

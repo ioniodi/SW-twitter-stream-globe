@@ -59,12 +59,11 @@
 
         uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/world-dark.jpg');
 
-        // var material = new THREE.ShaderMaterial({
-        //     uniforms: uniforms,
-        //     vertexShader: shader.vertexShader,
-        //     fragmentShader: shader.fragmentShader
-        // });
-        var material = new THREE.MeshBasicMaterial( {color: 0xffff00} );
+        var material = new THREE.ShaderMaterial({
+            uniforms: uniforms,
+            vertexShader: shader.vertexShader,
+            fragmentShader: shader.fragmentShader
+        });
 
         earthMesh = new THREE.Mesh(sphereGeometry, material);
         scene.add(earthMesh);

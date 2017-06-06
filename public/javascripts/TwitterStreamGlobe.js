@@ -52,18 +52,19 @@
      *	Creates the Earth sphere
      */
     function addEarth () {
-        var sphereGeometry = new THREE.PlaneBufferGeometry(500, 500, 32);
+        var sphereGeometry = new THREE.PlaneBufferGeometry(1500, 1500);
 
         var shader = Shaders.earth;
         var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
 
         uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/world-dark.jpg');
 
-        var material = new THREE.ShaderMaterial({
-            uniforms: uniforms,
-            vertexShader: shader.vertexShader,
-            fragmentShader: shader.fragmentShader
-        });
+        // var material = new THREE.ShaderMaterial({
+        //     uniforms: uniforms,
+        //     vertexShader: shader.vertexShader,
+        //     fragmentShader: shader.fragmentShader
+        // });
+        var material = new THREE.MeshBasicMaterial( {color: 0xffff00} );
 
         earthMesh = new THREE.Mesh(sphereGeometry, material);
         scene.add(earthMesh);

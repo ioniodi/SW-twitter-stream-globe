@@ -52,7 +52,7 @@
      *	Creates the Earth sphere
      */
     function addEarth () {
-        var sphereGeometry = new THREE.PlaneGeometry(1500, 1500);
+        var sphereGeometry = new THREE.PlaneGeometry(1500, 1500, 32);
 
         var shader = Shaders.earth;
         var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
@@ -105,9 +105,9 @@
         var theta = 2 * Math.PI - lon * Math.PI / 180 + Math.PI * 0.06;
         var rad = 600 + height;
 
-        vector3.x = lat;
-        vector3.y = lon;
-        vector3.z = 0;
+        vector3.x = Math.sin(phi) * Math.cos(theta) * rad;
+        vector3.y = Math.cos(phi) * rad;
+        vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
 
         return vector3;
     };
@@ -144,9 +144,9 @@
 
         var beacon = new TweetBeacon(tweet);
 
-        beacon.position.y = ((1500/360.0) * (180 + position.y));
-        beacon.position.x = ((1500/180.0) * (90 + position.x));
-        //beacon.position.z = position.z;
+        beacon.position.x = position.x;
+        beacon.position.y = position.y;
+        beacon.position.z = position.z;
         beacon.lookAt(earthMesh.position);
         beaconHolder.add(beacon);
 

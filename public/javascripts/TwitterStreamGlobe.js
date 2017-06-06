@@ -1,124 +1,123 @@
 (function () {
 
-	var TwtrGlobe = this.TwtrGlobe = { },
+    var TwtrGlobe = this.TwtrGlobe = { },
 
-	// Constants
-	POS_X = 0,
-	POS_Y = 800,
-	POS_Z = 2000,
-	FOV = 45,
-	NEAR = 1,
-	FAR = 150000,
-	PI_HALF = Math.PI / 2;
+        // Constants
+        POS_X = 0,
+        POS_Y = 800,
+        POS_Z = 2000,
+        FOV = 45,
+        NEAR = 1,
+        FAR = 150000,
+        PI_HALF = Math.PI / 2;
 
-	var renderer, camera, scene, pubnub, innerWidth, innerHeight;
+    var renderer, camera, scene, pubnub, innerWidth, innerHeight;
 
-	/**
-	 *	Initiates WebGL view with Three.js
-	 */
-	TwtrGlobe.init = function () {
-		
-		if (!this.supportsWebGL()) {
-			window.location = '/upgrade';
-			return;
-		}
+    /**
+     *	Initiates WebGL view with Three.js
+     */
+    TwtrGlobe.init = function () {
 
-		var innerWidth = window.innerWidth;
-		var innerHeight = window.innerHeight;
+        if (!this.supportsWebGL()) {
+            window.location = '/upgrade';
+            return;
+        }
 
-		renderer = new THREE.WebGLRenderer({ antialiasing: true });
-		renderer.setSize(innerWidth, innerHeight);
-		renderer.setClearColor(0x00000000, 0.0);
+        var innerWidth = window.innerWidth;
+        var innerHeight = window.innerHeight;
 
-		document.getElementById('globe-holder').appendChild(renderer.domElement);
+        renderer = new THREE.WebGLRenderer({ antialiasing: true });
+        renderer.setSize(innerWidth, innerHeight);
+        renderer.setClearColor(0x00000000, 0.0);
 
-		camera = new THREE.PerspectiveCamera(FOV, innerWidth / innerHeight, NEAR, FAR);
-		camera.position.set(POS_X, POS_Y, POS_Z);
-		camera.lookAt( new THREE.Vector3(0,0,0) );
+        document.getElementById('globe-holder').appendChild(renderer.domElement);
 
-		scene = new THREE.Scene();
-		scene.add(camera);
+        camera = new THREE.PerspectiveCamera(FOV, innerWidth / innerHeight, NEAR, FAR);
+        camera.position.set(POS_X, POS_Y, POS_Z);
+        camera.lookAt( new THREE.Vector3(0,0,0) );
 
-		addEarth();
-		addStats();
-		animate();
+        scene = new THREE.Scene();
+        scene.add(camera);
 
-		window.addEventListener ('resize', onWindowResize);
-	}
+        addEarth();
+        addStats();
+        animate();
 
-	var earthMesh, beaconHolder;
+        window.addEventListener ('resize', onWindowResize);
+    }
 
-	/**
-	 *	Creates the Earth sphere
-	 */
-	function addEarth () {
+    var earthMesh, beaconHolder;
 
-	  var sphereGeometry = new THREE.PlaneBufferGeometry(5, 20, 32);
+    /**
+     *	Creates the Earth sphere
+     */
+    function addEarth () {
+        var sphereGeometry = new THREE.PlaneBufferGeometry(5, 20, 32);
 
-	  var shader = Shaders.earth;
-	  var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
+        var shader = Shaders.earth;
+        var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
 
-	  uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/world.jpg');
+        uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/world-dark.jpg');
 
-	  var material = new THREE.ShaderMaterial({
-	    uniforms: uniforms,
-	    vertexShader: shader.vertexShader,
-	    fragmentShader: shader.fragmentShader
-	  });
+        var material = new THREE.ShaderMaterial({
+            uniforms: uniforms,
+            vertexShader: shader.vertexShader,
+            fragmentShader: shader.fragmentShader
+        });
 
-	  earthMesh = new THREE.Mesh(sphereGeometry, material);
-	  scene.add(earthMesh);
+        earthMesh = new THREE.Mesh(sphereGeometry, material);
+        scene.add(earthMesh);
 
-	  // add an empty container for the beacons to be added to
-	  beaconHolder = new THREE.Object3D();
-	  earthMesh.add(beaconHolder);
-	}
+        // add an empty container for the beacons to be added to
+        beaconHolder = new THREE.Object3D();
+        earthMesh.add(beaconHolder);
+    }
 
-	var stats;
+    var stats;
 
-	/**
-	 * Adds FPS stats view for debugging
-	 */
-	function addStats () {
-		stats = new Stats();
-		stats.setMode(0); // 0: fps, 1: ms
+    /**
+     * Adds FPS stats view for debugging
+     */
+    function addStats () {
+        stats = new Stats();
+        stats.setMode(0); // 0: fps, 1: ms
 
-		stats.domElement.style.position = 'absolute';
-		stats.domElement.style.right = '20px';
-		stats.domElement.style.bottom = '100px';
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.right = '20px';
+        stats.domElement.style.bottom = '100px';
 
-		document.body.appendChild( stats.domElement );
-	}
+        document.body.appendChild( stats.domElement );
+    }
 
-	/**
-	 * Converts a latlong to Vector3 for use in Three.js
-	 */
-	function latLonToVector3 (lat, lon, height) {
+    /**
+     * Converts a latlong to Vector3 for use in Three.js
+     */
+    function latLonToVector3 (lat, lon, height) {
 
-		height = height ? height : 0;
+        height = height ? height : 0;
 
-	  var vector3 = new THREE.Vector3(0, 0, 0);
+        var vector3 = new THREE.Vector3(0, 0, 0);
 
-	  lon = lon + 10;
-	  lat = lat - 2;
+        lon = lon + 10;
+        lat = lat - 2;
 
-	  var phi = PI_HALF - lat * Math.PI / 180 - Math.PI * 0.01;
-	  var theta = 2 * Math.PI - lon * Math.PI / 180 + Math.PI * 0.06;
-	  var rad = 600 + height;
+        var phi = PI_HALF - lat * Math.PI / 180 - Math.PI * 0.01;
+        var theta = 2 * Math.PI - lon * Math.PI / 180 + Math.PI * 0.06;
+        var rad = 600 + height;
 
-	  vector3.x = Math.sin(phi) * Math.cos(theta) * rad;
-	  vector3.y = Math.cos(phi) * rad;
-	  vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
+        vector3.x = Math.sin(phi) * Math.cos(theta) * rad;
+        vector3.y = Math.cos(phi) * rad;
+        vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
 
-	  return vector3;
-	};
+        return vector3;
+    };
 
-	/**
-	 *	Adds a Tweet to the Earth, called from TweetHud.js
-	 */
-	TwtrGlobe.onTweet = function (tweet) {
-	    // check if no coordinate info ? latlong = null
-		if (tweet.coordinates != null){
+    /**
+     *	Adds a Tweet to the Earth, called from TweetHud.js
+     */
+    TwtrGlobe.onTweet = function (tweet) {
+        // check if no coordinate info ? latlong = null
+        if (tweet.coordinates != null){
             // extract a latlong from the Tweet object
             var latlong = {
                 lat: tweet.coordinates.coordinates[1],
@@ -126,79 +125,78 @@
             };
 
             var position = latLonToVector3(latlong.lat, latlong.lon);
-	    if((latlong.lat <= -11.178402 && latlong.lat >= -41) && (latlong.lon <= 113.115234 && latlong.lon <= 108.720703)){
-	        addBeacon(position, tweet);
-	    }
-		}else{
+            if((latlong.lat <= -11.178402 && latlong.lat >= -41) && (latlong.lon <= 113.115234 && latlong.lon <= 108.720703)){
+                addBeacon(position, tweet);
+            }
+        }else{
             var latlong = {
                 lat: null,
                 lon: null
             };
-		}
+        }
 
-	};
+    }
 
-	/**
-	 *	Adds a beacon (line) to the surface of the Earth
-	 */
-	// bookmark: beacon spawn
-	function addBeacon (position, tweet) {
-		
-		var beacon = new TweetBeacon(tweet);
+    /**
+     *	Adds a beacon (line) to the surface of the Earth
+     */
+    function addBeacon (position, tweet) {
 
-	  beacon.position.x = position.x;
-	  beacon.position.y = position.y;
-	  beacon.position.z = position.z;
-	  beacon.lookAt(earthMesh.position);
-		beaconHolder.add(beacon);
+        var beacon = new TweetBeacon(tweet);
 
-		// remove beacon from scene when it expires itself
-		beacon.onHide(function () {
-			beaconHolder.remove(beacon);
-		});
-	}
+        beacon.position.x = position.x;
+        beacon.position.y = position.y;
+        beacon.position.z = position.z;
+        beacon.lookAt(earthMesh.position);
+        beaconHolder.add(beacon);
 
-	/**
-	 * Render loop
-	 */
-	function animate () {
-	  requestAnimationFrame(animate);
-    if (stats) stats.begin();
-    render();
-    if (stats) stats.end();
-	}
+        // remove beacon from scene when it expires itself
+        beacon.onHide(function () {
+            beaconHolder.remove(beacon);
+        });
+    }
 
-	/**
-	 * Runs on each animation frame
-	 */ 
-	function render () {
+    /**
+     * Render loop
+     */
+    function animate () {
+        requestAnimationFrame(animate);
+        if (stats) stats.begin();
+        render();
+        if (stats) stats.end();
+    }
 
-		earthMesh.rotation.y = earthMesh.rotation.y + 0.314;
-		
-	  renderer.autoClear = false;
-	  renderer.clear();
-	  renderer.render( scene, camera );
-	}
+    /**
+     * Runs on each animation frame
+     */
+    function render () {
 
-	/**
-	 * Updates camera and rendered when browser resized
-	 */
-	function onWindowResize (event) {
-		innerWidth = window.innerWidth;
-		innerHeight = window.innerHeight;
+        earthMesh.rotation.y = earthMesh.rotation.y + 0.314;
 
-	  camera.aspect = innerWidth / innerHeight;
-	  camera.updateProjectionMatrix();
-	  renderer.setSize(innerWidth, innerHeight);
-	}
+        renderer.autoClear = false;
+        renderer.clear();
+        renderer.render( scene, camera );
+    }
 
-	/**
-	 * Detects WebGL support
-	 */
-	TwtrGlobe.supportsWebGL = function () {
-		return ( function () { try { var canvas = document.createElement( 'canvas' ); return !! window.WebGLRenderingContext && ( canvas.getContext( 'webgl' ) || canvas.getContext( 'experimental-webgl' ) ); } catch( e ) { return false; } } )();
-	}
+    /**
+     * Updates camera and rendered when browser resized
+     */
+    function onWindowResize (event) {
+        innerWidth = window.innerWidth;
+        innerHeight = window.innerHeight;
 
-	return TwtrGlobe;
+        camera.aspect = innerWidth / innerHeight;
+        camera.updateProjectionMatrix();
+        renderer.setSize(innerWidth, innerHeight);
+    }
+
+    /**
+     * Detects WebGL support
+     */
+    TwtrGlobe.supportsWebGL = function () {
+        return ( function () { try { var canvas = document.createElement( 'canvas' ); return !! window.WebGLRenderingContext && ( canvas.getContext( 'webgl' ) || canvas.getContext( 'experimental-webgl' ) ); } catch( e ) { return false; } } )();
+    }
+
+    return TwtrGlobe;
 
 })().init();

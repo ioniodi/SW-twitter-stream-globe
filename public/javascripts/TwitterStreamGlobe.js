@@ -107,7 +107,7 @@
 
         vector3.x = lat;
         vector3.y = lon;
-        //vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
+        vector3.z = 0;
 
         return vector3;
     };
@@ -146,7 +146,7 @@
 
         beacon.position.x = position.x;
         beacon.position.y = position.y;
-        //beacon.position.z = position.z;
+        beacon.position.z = position.z;
         beacon.lookAt(earthMesh.position);
         beaconHolder.add(beacon);
 

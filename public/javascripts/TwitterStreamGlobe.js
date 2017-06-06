@@ -53,7 +53,7 @@
 	 */
 	function addEarth () {
 
-	  var sphereGeometry = new THREE.SphereGeometry(600, 50, 50);
+	  var sphereGeometry = new THREE.PlaneBufferGeometry(5, 20, 32);
 
 	  var shader = Shaders.earth;
 	  var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
@@ -135,11 +135,12 @@
             };
 		}
 
-	}
+	};
 
 	/**
 	 *	Adds a beacon (line) to the surface of the Earth
 	 */
+	// bookmark: beacon spawn
 	function addBeacon (position, tweet) {
 		
 		var beacon = new TweetBeacon(tweet);

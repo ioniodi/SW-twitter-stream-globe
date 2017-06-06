@@ -5,7 +5,7 @@
         // Constants
         POS_X = 0,
         POS_Y = 800,
-        POS_Z = 0,
+        POS_Z = 2000,
         FOV = 45,
         NEAR = 1,
         FAR = 150000,
@@ -105,9 +105,9 @@
         var theta = 2 * Math.PI - lon * Math.PI / 180 + Math.PI * 0.06;
         var rad = 600 + height;
 
-        vector3.x = Math.sin(phi) * Math.cos(theta) * rad;
-        vector3.y = Math.cos(phi) * rad;
-        vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
+        vector3.x = lat;
+        vector3.y = lon;
+        //vector3.z = Math.sin(phi) * Math.sin(theta) * rad;
 
         return vector3;
     };
@@ -146,7 +146,7 @@
 
         beacon.position.x = position.x;
         beacon.position.y = position.y;
-        beacon.position.z = position.z;
+        //beacon.position.z = position.z;
         beacon.lookAt(earthMesh.position);
         beaconHolder.add(beacon);
 

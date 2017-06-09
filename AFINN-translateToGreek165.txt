@@ -3631,24 +3631,60 @@ swindling	-3
 sympathetic	2
 sympathy	2
 taint	-2
+μολύνω -2
+αλλοιώνω -2
+// Dimitrios Tsirigotis P2009041 MM
 tainted	-2
+μολυσμένος -2
+αλλοιωμένος -2
+// Dimitrios Tsirigotis P2009041 MM
 talent	2
 ταλέντο 2
 //Giwrgos Papakwnstantinoy P2013137 cscw
 tard	-2
 tarnish	-2
+αμαυρώνω -2
+// Dimitrios Tsirigotis P2009041 MM
 tarnished	-2
+αμαυρωμένος -2
+// Dimitrios Tsirigotis P2009041 MM
 tarnishes	-2
 tears	-2
+δάκρυα -2
+// Dimitrios Tsirigotis P2009041 MM
 tender	2
+τρυφερός 2
+ευαίσθητος 2
+// Dimitrios Tsirigotis P2009041 MM
 tenderness	2
+στοργή 2
+// Dimitrios Tsirigotis P2009041 MM
 tense	-2
+τεταμένος -2
+νευρικός -2
+// Dimitrios Tsirigotis P2009041 MM
 tension	-1
+ένταση -1
+// Dimitrios Tsirigotis P2009041 MM
 terrible	-3
+απαίσιος -3
+φριχτός -3
+// Dimitrios Tsirigotis P2009041 MM
 terribly	-3
+απαίσια -3
+χάλια -3
+// Dimitrios Tsirigotis P2009041 MM
 terrific	4
+τρομερός 4
+φανταστικός 4
+// Dimitrios Tsirigotis P2009041 MM
 terrifically	4
+εξαιρετικά 4
+εξαίσια 4
+// Dimitrios Tsirigotis P2009041 MM
 terrified	-3
+τρομοκρατημένος -3
+// Dimitrios Tsirigotis P2009041 MM
 terror	-3
 τρόμος -3
 // 2015139 Giorgos Margaritis CSCW
@@ -3659,15 +3695,27 @@ terrorists	-2
 τρομοκράτες -2
 // 2015139 Giorgos Margaritis CSCW
 terrorize	-3
+τρομοκρατώ -3
+// Dimitrios Tsirigotis P2009041 MM
 terrorized	-3
+τρομοκρατημένος -3
+// Dimitrios Tsirigotis P2009041 MM
 terrorizes	-3
+τρομοκρατεί
+// Dimitrios Tsirigotis P2009041 MM
 thank	2
+ευχαριστώ 2
+// Dimitrios Tsirigotis P2009041 MM
 thankful	2
+ευγνώμων 2
+// Dimitrios Tsirigotis P2009041 MM
 thanks	2
 thorny	-2
 thoughtful	2
 thoughtless	-2
 threat	-2
+απειλή -2 
+// Dimitrios Tsirigotis P2009041 MM
 threaten	-2
 threatened	-2
 threatening	-2
@@ -3692,6 +3740,8 @@ torture	-4
 βασανιστήριο -4
 // 2015139 Giorgos Margaritis CSCW
 tortured	-4
+βασανισμένος -4
+// Dimitrios Tsirigotis P2009041 MM
 tortures	-4
 torturing	-4
 totalitarian	-2

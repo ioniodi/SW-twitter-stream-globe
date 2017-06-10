@@ -58,7 +58,7 @@
 	  var shader = Shaders.earth;
 	  var uniforms = THREE.UniformsUtils.clone(shader.uniforms);
 
-	  uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/world-dark.jpg');
+	  uniforms['texture'].value = THREE.ImageUtils.loadTexture('/images/world.jpg');
 
 	  var material = new THREE.ShaderMaterial({
 	    uniforms: uniforms,
@@ -163,7 +163,7 @@
 	 */ 
 	function render () {
 
-		earthMesh.rotation.y = earthMesh.rotation.y + 0.005;
+		earthMesh.rotation.y = earthMesh.rotation.y + 0.030;
 		
 	  renderer.autoClear = false;
 	  renderer.clear();

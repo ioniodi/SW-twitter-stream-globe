@@ -233,22 +233,25 @@ angry	-3
 anguish	-3
 anguished	-3
 animosity	-2
-annoy	-2
-annoyance	-2
-annoyed	-2
-annoying	-2
-annoys	-2
+// Chrysanthi Kosyfaki 2013058
+annoy	-2 ενοχλώ
+annoyance	-2 ενόχληση
+annoyed	-2 εκνευρισμένος
+annoying	-2 ενοχλητικός
+annoys	-2 που ενοχλεί
 antagonistic	-2
 anti	-1
 anticipation	1
-anxiety	-2
-anxious	-2
-apathetic	-3
-apathy	-3
+// Chrysanthi Kosyfaki 2013058
+anxiety	-2 ανησυχία
+anxious	-2 αγχωμένος
+apathetic	-3 απαθής
+apathy	-3 απάθεια
 apeshit	-3
 apocalyptic	-2
-apologise	-1
-apologised	-1
+// Chrysanthi Kosyfaki 2013058
+apologise	-1 απολογούμαι
+apologised	-1 
 apologises	-1
 apologising	-1
 apologize	-1
@@ -268,11 +271,12 @@ applauded	2
 applauding	2
 applauds	2
 applause	2
-appreciate	2
-appreciated	2
-appreciates	2
-appreciating	2
-appreciation	2
+// Chrysanthi Kosyfaki 2013058
+appreciate	2 εκτιμώ
+appreciated	2 καλοδεχούμενος
+appreciates	2 που εκτιμά
+appreciating	2 που νιώθει υπόχρεος
+appreciation	2 εκτίμηση
 apprehensive	-2
 appropriate	2
 appropriately	2
@@ -304,15 +308,16 @@ astoundingly	3
 astounds	3
 atrocious	-3
 atrocity	-3
-attack	-1
-attacked	-1
-attacking	-1
-attacks	-1
-attract	1
-attracted	1
-attracting	2
-attraction	2
-attractions	2
+// Chrysanthi Kosyfaki 2013058
+attack	-1 επιτείθομαι
+attacked	-1 αυτός που επιτείθεται
+attacking	-1 που επιτείθεται
+attacks	-1 που επιτείθεται
+attract	1 ελκυώ
+attracted	1 αυτος που ελκύεται
+attracting	2 ελκυστικός
+attraction	2 έλξη
+attractions	2 πόλος έλξης
 attractive	2
 attractively	2
 attractiveness	2
@@ -1502,8 +1507,9 @@ flustered	-2
 focused	2
 fond	2
 fondness	2
-fool	-2
-foolish	-2
+//Chrysanthi Kosyfaki 2013058
+fool	-2 ανόητος
+foolish	-2 βλακώδης
 fools	-2
 forbid	-1
 forbidden	-2
@@ -1706,7 +1712,8 @@ great	3
 greater	3
 greatest	3
 greed	-3
-greedy	-2
+// Chrysanthi Kosyfaki 2013058
+greedy	-2 άπληστος
 green wash	-3
 green washing	-3
 greenwash	-3
@@ -1803,10 +1810,11 @@ heavyhearted	-2
 hehe	2
 hell	-4
 hellish	-2
-help	2
-helpful	2
-helping	2
-helpless	-2
+// Chrysanthi Kosyfaki 2013058
+help	2 βοήθεια
+helpful	2 χρήσιμος
+helping	2 που χρησιμεύει κάπου
+helpless	-2 αβοήθητος
 helps	2
 hero	2
 heroes	2
@@ -1840,11 +1848,12 @@ honouring	2
 hooligan	-2
 hooliganism	-2
 hooligans	-2
-hope	2
-hopeful	2
-hopefully	2
-hopeless	-2
-hopelessness	-2
+// Chrysanthi Kosyfaki 2013058
+hope	2 ελπίδα
+hopeful	2 αισιόδοξος
+hopefully	2 αισιόδοξα/ ελπιδοφόρα
+hopeless	-2 ανίκανος
+hopelessness	-2 απελπισία
 hopes	2
 hoping	2
 horrendous	-3
@@ -2066,9 +2075,10 @@ intact	2
 integrity	2
 intelligent	2
 intense	1
-interest	1
-interested	2
-interesting	2
+// Chrysanthi Kosyfaki 2013058
+interest	1 ενδιαφέρον
+interested	2 που ενδιαφέρεται
+interesting	2 που είναι ενδιαφέρον
 interests	1
 interrogated	-2
 interrupt	-2
@@ -2408,11 +2418,13 @@ marvelous	3
 marvels	3
 masterpiece	4
 masterpieces	4
-matter	1
+// Chrysanthi Kosyfaki 2013058
+matter	1 ουσία
 matters	1
 mature	2
-meaningful	2
-meaningless	-2
+// Chrysanthi Kosyfaki 2013058
+meaningful	2 ουσιαστικός
+meaningless	-2 ανούσιος
 medal	3
 μετάλλιο 3
 //Giwrgos Papakwnstantinoy P2013137 cscw
@@ -2545,8 +2557,9 @@ nasty	-3
 natural	1
 naïve	-2
 needy	-2
-negative	-2
-negativity	-2
+// Chrysanthi Kosyfali 2013058
+negative	-2 αρνητικός
+negativity	-2 αρνητικότητα
 neglect	-2
 neglected	-2
 neglecting	-2
@@ -2953,8 +2966,9 @@ popular	3
 popularity	3
 δημοτικότητα 3
 // 2015139 Giorgos Margaritis CSCW
-positive	2
-positively	2
+//Chrysanthi Kosyfaki 2013058
+positive	2 θετικός
+positively	2 θετικά
 possessive	-2
 post-traumatic	-2
 postpone	-1
@@ -2985,9 +2999,10 @@ pretend	-1
 pretending	-1
 pretends	-1
 pretty	1
-prevent	-1
-prevented	-1
-preventing	-1
+// Chrysanthi Kosyfaki 2013058
+prevent	-1 αποτρέπω
+prevented	-1 που αποτρέπει
+preventing	-1 
 prevents	-1
 prick	-5
 prison	-2
@@ -3054,8 +3069,9 @@ quality	2
 questionable	-2
 questioned	-1
 questioning	-1
-racism	-3
-racist	-3
+// Chrysanthi Kosyfaki 2013058
+racism	-3 ρατσισμός
+racist	-3 ρατσιστής
 racists	-3
 rage	-2
 rageful	-2

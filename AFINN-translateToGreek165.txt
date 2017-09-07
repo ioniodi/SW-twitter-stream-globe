@@ -423,10 +423,21 @@ celebrating	3
 celebration	3
 celebrations	3
 censor	-2
+λογοκρίνω -2
+//SYNTZIRMA MARIA-ELEFTHERIA 2013071
 censored	-2
 censors	-2
 certain	1
 chagrin	-2
+clarifies	2
+διασαφηνίζει 2
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+clarity	2
+σαφήνεια 2
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+clash	-2
+σύγκρουση -2
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
 chagrined	-2
 challenge	-1
 champion	2
@@ -666,6 +677,9 @@ cutting	-1
 cynic	-2
 cynical	-2
 cynicism	-2
+damage	-3
+ζημιά -3
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
 damaged	-3
 damages	-3
 damaging	-3
@@ -674,6 +688,9 @@ damn cute	3
 damn good	4
 damned	-4
 damnit	-4
+danger	-2
+κίνδυνος -2
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
 dangerous	-2
 dangerously	-2
 daredevil	2
@@ -684,6 +701,9 @@ dauntless	2
 dazzling	3
 dead	-3
 deadening	-2
+deadlock	-2
+αδιέξοδο -2
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
 deadly	-3
 deafening	-1
 dear	2
@@ -1316,11 +1336,86 @@ frustrated	-2
 frustrates	-2
 frustrating	-2
 frustration	-2
+ftw	3
+για την νίκη 3
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fuck	-4
+γαμώ -4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fucked	-4
+γαμημένος -4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071 
+fucker	-4
+fuckers	-4
+fuckface	-4
+αηδιαστικός -4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fuckhead	-4
+μαλάκας -4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
 fuckin	-4
 fucking	-4
 fucking amazing	4
+fucking beautiful	4
+πολύ όμορφος 4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fucking cute	4
+πολύ γλυκό                                                                                                                         //SYNTZIRMA MARIA-ELFTHERIA 2013071
+fucking fantastic	4
+fucking good	4
+πολύ καλός 4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fucking great	4
+πολύ τέλειος 4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fucking hot	2
+καύλα 2
+1//SYNTZIRMA MARIA-ELFTHERIA 2013071
 fucking love	4
 fucking loves	4
+fucking perfect	4
+άψογος 4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fucktard	-4
+fud	-3
+αιδοιό -3
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fuked	-4
+γαμημένος -4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fuking	-4
+σεξ -4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fulfill	2
+εκπληρώνω 2
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fulfilled	2
+fulfillment	2
+fulfills	2
+fuming	-2
+ατμίζον -2
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+fun	4
+διασκέδαση 4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+funeral	-1
+κηδεία -1
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+funerals	-1
+κηδείες -1
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+funky	2
+funnier	4
+funny	4
+διασκεδαστικός 4
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+furious	-3
+έξαλος -3
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
+futile	-2
+gag	-2
+φίμωτρο -2
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
 gagged	-2
 gain	2
 gained	2
@@ -2536,6 +2631,9 @@ sneezing	-2
 snub	-2
 snubbed	-2
 snubbing	-2
+snubs	-2
+αγνοώ -2
+//SYNTZIRMA MARIA-ELFTHERIA 2013071
 sobering	1
 solemn	-1
 solid	2
@@ -2612,6 +2710,9 @@ stimulates	1
 stimulating	2
 stingy	-2
 stink	-2
+βρωμάω -2
+solve	1
+//MARIA-ELEFTHERIA SYNTZIRMA 2013071
 stinked	-2
 stinker	-2
 stinking	-2

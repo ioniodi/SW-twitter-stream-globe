@@ -64,6 +64,6 @@ images) καθώς και μειώθηκε η ταχύτητα περιστρο�
 
 <p>Παρακάτω δίνονται τα links με την εφαρμογή και το repository μου στο GitHub που έγιναν οι αλλαγές.</p>
 
-<p>Link εφαρμογής:</p>
+<p>Link εφαρμογής: https://stark-lake-93710.herokuapp.com/ </p>
 
 <p>Link προσωπικού repository:</p>

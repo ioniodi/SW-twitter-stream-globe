@@ -89,17 +89,21 @@ app.controller('TweetHud', function($scope, $resource, $timeout, $rootScope, $ti
    *  Returns sentiment description for use as a CSS class
    */
 	function getSentimentState (score) {
-		
-		var state = 'neutral';
+	var state = 'neutral';
 
-  	if (score < 0) {
-  		state = 'negative';
+  	if (score < -2.5) {
+  		state = 'negative too much';
   	}
-  	else if (score > 0) {
-  		state = 'positive';
-  	}
-
-		return state;
+	else if (score < 0 && score >= 2.5){
+		state = 'negative'
+	}	
+  	else if (score > 2.5) {
+  		state = 'positive enough';
+	}	
+	else if (score > 0 && score <= 2.5){
+		state = 'positive'
+	}
+	return state;
 	}
 
   /**

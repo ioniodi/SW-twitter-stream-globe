@@ -16,16 +16,25 @@ TweetBeacon = function(tweet) {
 
   // Set base color depending on sentiment score
   this.color = 0xFFFFFF;
-
-  if (tweet.sentiment.score < 0) {
-    this.color = 0xFF0000;
-  }
-  else if (tweet.sentiment.score > 0) {
-    this.color = 0xDDDD00;
-  }
-
+  
+  if (tweet.sentiment.score <-2.5 && tweet.sentiment.score >= -5) {
+   this.color = 0x00004d;
+   }
+  
+  else if (tweet.sentiment.score <0 && tweet.sentiment.score >= -2.5) {
+     this.color = 0x0000e6;
+   }
+  
+  else if (tweet.sentiment.score > 0 && tweet.sentiment.score <= 2.5) {
+     this.color = 0xffb399;
+   }
+  
+  else if (tweet.sentiment.score>2.5 && tweet.sentiment.score <= 5) {
+     this.color = 0xff8c66;
+   }
+    
   this.addBeam();
-  this.addShockwave();
+  this.addShockwave();  
 };
 
 TweetBeacon.prototype = new THREE.Object3D();
@@ -173,4 +182,3 @@ TweetBeacon.prototype.hide = function () {
 TweetBeacon.prototype.onHide = function (callback) {
   this.onHideCallback = callback;
 }
-
